@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Floating</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="/static/images/chatbot.png"
+                            alt="image" style="width: 45px;">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">BORRI</h4>
+                        <p class="chatbox__description--header">Hi! Saya BORRI ChatBot RRI siap membantu mu!</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Tanya sesuatu...">
+                    <button class="chatbox__send--footer send__button">Kirim</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="/static/images/chat.png" style="width: 32px;" /></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+
+</html>

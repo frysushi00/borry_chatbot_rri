@@ -1,0 +1,2090 @@
+{
+    "intents": [
+        {
+            "tag": "jadwal_siaran_pro1",
+            "patterns": [
+                "Jadwal RRI Pro 1 hari ini?",
+                "Apa acara di Pro 1 sekarang?",
+                "Program rri pro 1",
+                "Siapa penyiar di Pro 1 saat ini?"
+            ],
+            "responses": [
+                "Cek jadwal siaran RRI Pro 1 lewat web digital.rri.co.id atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "jadwal_siaran_pro2",
+            "patterns": [
+                "Apa program di RRI Pro 2?",
+                "Acara musik di RRI Pro 2 kapan?",
+                "Program rri pro 2",
+                "Siapa penyiar di Pro 2 sekarang?"
+            ],
+            "responses": [
+                "Cek jadwal siaran RRI Pro 2 lewat web digital.rri.co.id atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "jadwal_siaran_pro3",
+            "patterns": [
+                "Apa program di RRI Pro 3?",
+                "Acara musik di RRI Pro 3 kapan?",
+                "Program rri pro 3",
+                "Siapa penyiar di Pro 3 sekarang?"
+            ],
+            "responses": [
+                "Cek jadwal siaran RRI Pro 3 lewat web digital.rri.co.id atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "jadwal_siaran_pro4",
+            "patterns": [
+                "Apa program di RRI Pro 4?",
+                "Acara musik di RRI Pro 4 kapan?",
+                "Program rri pro 4",
+                "Siapa penyiar di Pro 4 sekarang?"
+            ],
+            "responses": [
+                "Cek jadwal siaran RRI Pro 4 lewat web digital.rri.co.id atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "jadwal_siaran",
+            "patterns": [
+                "Apa jadwal siaran RRI hari ini?",
+                "Jam berapa acara favorit saya di RRI?",
+                "Siaran RRI Pekanbaru hari ini apa saja?"
+            ],
+            "responses": [
+                "Cek jadwal siaran RRI Pekanbaru lewat web digital.rri.co.id atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "streaming_live",
+            "patterns": [
+                "Bagaimana cara mendengarkan RRI online?",
+                "Link streaming RRI?",
+                "Saya ingin dengar radio RRI live",
+                "Dimana saya bisa mendengar siaran RRI secara online?",
+                "RRI Online"
+            ],
+            "responses": [
+                "Anda bisa mendengarkan RRI secara live melalui website digital.rri.co.id atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "request_lagu",
+            "patterns": [
+                "Bisa request lagu di RRI?",
+                "Request lagu di RRI",
+                "Bisa request lagu?",
+                "Bagaimana cara request lagu di RRI Pro 2?",
+                "Saya ingin kirim salam dan request lagu"
+            ],
+            "responses": [
+                "Silakan kirim permintaan lagu Anda melalui instagram kami di rri_pekanbaru"
+            ]
+        },
+        {
+            "tag": "frekuensi_rri_pro1",
+            "patterns": [
+                "Berapa frekuensi RRI Pro 1 di Pekanbaru?",
+                "Frekuensi RRI Pro 1 Pekanbaru?",
+                "Frekuensi Pro 1",
+                "Di mana saya bisa mendengarkan RRI Pro1 Pekanbaru?"
+            ],
+            "responses": [
+                "Frekuensi RRI Pro 1 di Pekanbaru adalah 99.1 FM, info lengkapnya bisa dicek di digital.rri.co.id"
+            ]
+        },
+        {
+            "tag": "frekuensi_rri_pro2",
+            "patterns": [
+                "Berapa frekuensi RRI Pro 2 di Pekanbaru?",
+                "Frekuensi RRI Pro 2 Pekanbaru?",
+                "Frekuensi Pro 2",
+                "Di mana saya bisa mendengarkan RRI Pro2 Pekanbaru?"
+            ],
+            "responses": [
+                "Frekuensi RRI Pro 2 di Pekanbaru adalah 88.4 FM, info lengkapnya bisa dicek di digital.rri.co.id"
+            ]
+        },
+        {
+            "tag": "frekuensi_rri_pro3",
+            "patterns": [
+                "Berapa frekuensi RRI Pro 3 di Pekanbaru?",
+                "Frekuensi RRI Pro 3 Pekanbaru?",
+                "Frekuensi Pro 3",
+                "Di mana saya bisa mendengarkan RRI Pro3 Pekanbaru?"
+            ],
+            "responses": [
+                "Frekuensi RRI Pro 3 di Pekanbaru adalah 89.2 FM, info lengkapnya bisa dicek di digital.rri.co.id"
+            ]
+        },
+        {
+            "tag": "frekuensi_rri_pro4",
+            "patterns": [
+                "Berapa frekuensi RRI Pro 4 di Pekanbaru?",
+                "Frekuensi RRI Pro 4 Pekanbaru?",
+                "Frekuensi Pro 4",
+                "Di mana saya bisa mendengarkan RRI Pro4 Pekanbaru?"
+            ],
+            "responses": [
+                "Frekuensi RRI Pro 4 di Pekanbaru adalah 95.9 FM, info lengkapnya bisa dicek di digital.rri.co.id"
+            ]
+        },
+        {
+            "tag": "apa_pro1",
+            "patterns": [
+                "Apa itu pro 1?",
+                "Pro 1 apa?",
+                "latar belakang pro 1"
+            ],
+            "responses": [
+                "Spesialisasinya adalah program informasi, budaya, hiburan, dan agama, yang ditujukan terutama untuk pendengar dewasa dan lanjut usia. Pada waktu tertentu, juga menyiarkan program berita dari RRI 3."
+            ]
+        },
+        {
+            "tag": "apa_pro2",
+            "patterns": [
+                "Apa itu pro 2?",
+                "Pro 2 apa?",
+                "latar belakang pro 2"
+            ],
+            "responses": [
+                "Ini adalah jaringan radio publik yang ditujukan untuk remaja dan dewasa muda berusia antara 12 dan 25 tahun. Pemrogramannya mencakup berita, hiburan remaja, dan dukungan untuk gaya hidup yang lebih baik."
+            ]
+        },
+        {
+            "tag": "apa_pro3",
+            "patterns": [
+                "Apa itu pro 3?",
+                "Pro 3 apa?",
+                "latar belakang pro 3"
+            ],
+            "responses": [
+                "Ini adalah stasiun radio berita nasional yang bersifat publik, dan merupakan jaringan radio publik kedua terbesar di tingkat nasional. Fokus utamanya adalah menyampaikan berita, meskipun terkadang sedikit musik juga disiarkan."
+            ]
+        },
+        {
+            "tag": "apa_pro4",
+            "patterns": [
+                "Apa itu pro 4?",
+                "Pro 4 apa?",
+                "latar belakang pro 4"
+            ],
+            "responses": [
+                "jaringan radio publik yang didedikasikan untuk musik daerah terbaik yang menjadi warisan budaya masyarakat Indonesia."
+            ]
+        },
+        {
+            "tag": "maksi",
+            "patterns": [
+                "Program Maksi",
+                "Program makan siang bersama teman sejati",
+                "Apa itu maksi?",
+                "Apa itu makan siang bersama teman sejati?"
+            ],
+            "responses": [
+                "Maksi (Makan Siang Bersama Teman Sejati) merupkan program dari RRI Pro 1 Pekanbaru untuk menemani makan siang mu!"
+            ]
+        },
+        {
+            "tag": "kontak_rri",
+            "patterns": [
+                "Bagaimana cara menghubungi RRI?",
+                "Nomor telepon RRI berapa?",
+                "Apakah RRI punya WhatsApp?",
+                "Apa kontak RRI?",
+                "kontak RRI"
+            ],
+            "responses": [
+                "Anda bisa menghubungi RRI melalui website digital.rri.co.id"
+            ]
+        },
+        {
+            "tag": "sosmed_rri",
+            "patterns": [
+                "Apakah RRI pekanbaru punya sosmed?",
+                "Apakah RRI pekanbaru punya ig?",
+                "Apakah RRI pekanbaru punya instagram?",
+                "Apa ig RRI pku?",
+                "sosmed rri pku"
+            ],
+            "responses": [
+                "RRI Pekanbaru memiliki sosial media instagram @rri__pekanbaru"
+            ]
+        },
+        {
+            "tag": "program_rri",
+            "patterns": [
+                "Apa program unggulan di RRI Pekanbaru?",
+                "Apa acara spesial di RRI Pekanbaru?",
+                "Siaran favorit di RRI Pekanbaru apa saja?",
+                "program unggulan",
+                "program rri"
+            ],
+            "responses": [
+                "RRI Pekanbaru memiliki berbagai program menarik. Cek jadwal lengkap di website kami."
+            ]
+        },
+        {
+            "tag": "program_talkshow",
+            "patterns": [
+                "Apa saja talkshow di RRI?",
+                "Talkshow di rri",
+                "talkshow rri",
+                "Jam berapa ada talkshow di RRI?",
+                "Talkshow inspiratif di RRI kapan?"
+            ],
+            "responses": [
+                "RRI menghadirkan berbagai talkshow inspiratif. Cek jadwal lengkapnya di website kami."
+            ]
+        },
+        {
+            "tag": "berita_rri",
+            "patterns": [
+                "Apa berita terbaru dari RRI?",
+                "berita terbaru",
+                "berita rri",
+                "Berita hari ini di RRI apa?",
+                "Update berita RRI Pekanbaru?"
+            ],
+            "responses": [
+                "Cek berita terbaru di RRI Pro 3 dan RRI Pro 1 di aplikasi RRI Digital atau lewat website dan kanal youtube RRI Pekanbaru"
+            ]
+        },
+        {
+            "tag": "host_pro1",
+            "patterns": [
+                "Siapa saja host di rri pro 1 pekanbaru?",
+                "Penyiar rri pro 1 pku",
+                "penyiar pro 1 siapa?",
+                "Siapa saja host di rri pro 1 pekanbaru?"
+            ],
+            "responses": [
+                "Penyiar RRI Pro 1 di Pekanbaru ada Kahirani Januarini, Amran Syarifuddin, dan Khasna' Lathifah"
+            ]
+        },
+        {
+            "tag": "host_pro2",
+            "patterns": [
+                "Siapa saja host di rri pro 2 pekanbaru?",
+                "Penyiar rri pro 2 pku",
+                "penyiar pro 2 siapa?",
+                "Siapa saja host di rri pro 2 pekanbaru?"
+            ],
+            "responses": [
+                "Penyiar RRI Pro 2 di Pekanbaru ada Kak Aby, Kak Christy, dan Kak Jiah"
+            ]
+        },
+        {
+            "tag": "host_pro3",
+            "patterns": [
+                "Siapa saja host di rri pro 3 pekanbaru?",
+                "Penyiar rri pro 3 pku",
+                "penyiar pro 3 siapa?",
+                "Siapa saja host di rri pro 3 pekanbaru?"
+            ],
+            "responses": [
+                "Penyiar RRI Pro 3 ada Hanna Pratiwi, Luna Ellya, Risty Rustarto, Fahmi Andryan, Fajar Nugroho, Lukman Tara, Rudi Zein, dan Zaini"
+            ]
+        },
+        {
+            "tag": "host_pro4",
+            "patterns": [
+                "Siapa saja host di rri pro 4 pekanbaru?",
+                "Penyiar rri pro 4 pku",
+                "penyiar pro 4 siapa?",
+                "Siapa saja host di rri pro 4 pekanbaru?"
+            ],
+            "responses": [
+                "Penyiar RRI Pro 4 di Pekanbaru ada Harun Alrosid, Bintang Lley Sartika, dan Risa Oktavia"
+            ]
+        },
+        {
+            "tag": "informasi_umum",
+            "patterns": [
+                "Apa itu RRI?",
+                "Sejarah RRI bagaimana?",
+                "sejarah rri",
+                "RRI berdiri sejak kapan?"
+            ],
+            "responses": [
+                "RRI adalah Radio Republik Indonesia, didirikan pada 11 September 1945."
+            ]
+        },
+        {
+            "tag": "lokasi_lpp_pku",
+            "patterns": [
+                "Lokasi LPP RRI Pekanbaru",
+                "Lokasi LPP RRI PKU",
+                "lokasi rri pekanbaru",
+                "Di mana RRI pekanbaru?"
+            ],
+            "responses": [
+                "RRI Pekanbaru berlokasi di Jl. Jend. Sudirman No.440, Tanah Datar, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau 28115, Indonesia."
+            ]
+        },
+        {
+            "tag": "intip_buku",
+            "patterns": [
+                "Intip Buku",
+                "Intip Buku RRI Pro 2 Pekanbaru",
+                "Apa itu intip buku?",
+                "Apa itu intip buku?",
+                "intipbuku"
+            ],
+            "responses": [
+                "Intip Buku merupakan program dari RRI Pro 2 Pekanbaru yang bergerak dalam bidang literasi di Pekanbaru. Program ini berkolaborasi dengan komunitas literasi di Pekanbaru salah satunya Pekanbaru Book Party. rogram ini tayang tiap hari minggu pukul 20.00 WIB"
+            ]
+        },
+        {
+            "tag": "maksi",
+            "patterns": [
+                "Program Maksi",
+                "Program makan siang bersama teman sejati",
+                "Apa itu maksi?",
+                "Apa itu makan siang bersama teman sejati?"
+            ],
+            "responses": [
+                "Maksi (Makan Siang Bersama Teman Sejati) merupkan program dari RRI Pro 1 Pekanbaru untuk menemani makan siang mu!"
+            ]
+        },
+        {
+            "tag": "pendidikan",
+            "patterns": [
+                "Program Pendidikan",
+                "Program dunia pendidikan",
+                "Apa saja program yang membahas dunia pendidikan di RRI?",
+                "Apakah RRI punya program yang membahas tentang dunia pendidikan?"
+            ],
+            "responses": [
+                "RRI menyediakan berbagai program yang membahas tentang dunia pendidikan, salah satunya adalah Goes To School dan Sinaran Ilmu"
+            ]
+        },
+        {
+            "tag": "religi",
+            "patterns": [
+                "Program islam",
+                "Program religi",
+                "Program religius",
+                "Kultum",
+                "Program kristen",
+                "religi",
+                "acara kristen",
+                "Program Ceramah",
+                "Apa saja program religius islam di RRI?",
+                "Apa saja program islam di RRI?",
+                "Ada program ceramah?"
+            ],
+            "responses": [
+                "RRI memiliki banyak program religius baik mingguan, harian, hingga khusus Ramadhan. Beberapa diantaranya ialah Mimbar Islam, Mozaik Islam, Ramadhanku, Nuansa Ramadhan, Silang Gereja, dan lain sebagainya. Untuk lengkapnya install aplikasi RRI Digital!"
+            ]
+        },
+        {
+            "tag": "berita",
+            "patterns": [
+                "Program berita",
+                "Program Berita Nasional",
+                "Program berita lokal",
+                "berita",
+                "Apa saja program berita di rri?",
+                "Ada program berita di rri?"
+            ],
+            "responses": [
+                "RRI memiliki banyak program berita baik lokal maupun Nasional, anda bisa mendengarkan berita di jaringan RRI Pro 3 juga RRI Pro 1"
+            ]
+        },
+        {
+            "tag": "anak",
+            "patterns": [
+                "Program anak-anak",
+                "Program edukasi anak",
+                "edukasi anak",
+                "Apa saja program edukasi anak di rri",
+                "Ada program untuk anak-anak di rri"
+            ],
+            "responses": [
+                "RRI memiliki banyak program yang didesain khusus untuk anak-anak seperti Idola RRi Dunia Anak, Sahabat Cilik, dan sebegainya. Lengkapnya cek di aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "wanita",
+            "patterns": [
+                "Program untuk wanita",
+                "Program ibu-ibu",
+                "Program edukasi untuk wanita",
+                "edukasi wanita",
+                "Apa saja program edukasi untuk wanita?",
+                "Ada program untuk ibu-ibu di rri?"
+            ],
+            "responses": [
+                "RRI memiliki program yang didesain khusus untuk wanita salahh satunya Bunga Rampai Keluarga"
+            ]
+        },
+        {
+            "tag": "seni",
+            "patterns": [
+                "Program kesenian",
+                "Program budaya",
+                "Program artsy",
+                "program seni dan budaya",
+                "Apa saja program yang membahas seni di rri?",
+                "Ada program kesenian di rri?"
+            ],
+            "responses": [
+                "RRI memiliki program yang membahas berbagai macam bidang seni dan kebudayaan seperti lagu daerah, Sinaran Ilmu Wisata Budaya, Beranda Budaya, dsb."
+            ]
+        },
+        {
+            "tag": "diskusi",
+            "patterns": [
+                "Program bincang-bincang",
+                "Program diskusi",
+                "Program ngobrol asik",
+                "Apa saja program bincang-bincang atau diskusi di RRI?",
+                "Adakah program diskusi di rri?"
+            ],
+            "responses": [
+                "RRI memiliki program diskusi dan bincang-bincang komunitas yang sering disiarkan di RRI PRO2."
+            ]
+        },
+        {
+            "tag": "literasi",
+            "patterns": [
+                "Program literasi",
+                "Program review buku",
+                "review buku",
+                "bincang buku",
+                "bahas buku",
+                "Apa saja program literasi di rri?",
+                "Ada program literasi di rri?"
+            ],
+            "responses": [
+                "RRI memiliki program literasi guna meningkatkan literasi di Pekanbaru, salah satunya program intip buku, bincang buku, hingga bincang komunitas dengan komunitas buku di Pekanbaru."
+            ]
+        },
+        {
+            "tag": "daftar_komunitas",
+            "patterns": [
+                "Pendaftaran komunitas",
+                "mengundang komunitas",
+                "Bagaimana saya bisa mendaftarkan komunitas saya untuk tampill di RRI?"
+            ],
+            "responses": [
+                "Kamu dapat medaftarkan komunitas mu dengan menghubungi kami via DM Instagram ya!"
+            ]
+        },
+        {
+            "tag": "umkm",
+            "patterns": [
+                "Program umkm",
+                "Program usaha",
+                "program bisnis",
+                "program bisnis ekonomi",
+                "Apa saja program umkm di rri?",
+                "Ada program bisnis di rri?"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang membahas UMKM di Pekanbaru seperti Dialog UMKM."
+            ]
+        },
+        {
+            "tag": "olahraga",
+            "patterns": [
+                "Program sport",
+                "Program olahraga",
+                "program kebugaran",
+                "Apa saja program olahraga di rri?",
+                "Apa saja program sport di rri?",
+                "Ada program sport di rri?"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang membahas berita seputar olahraga yakni Warta Berita Olahraga Sentral"
+            ]
+        },
+        {
+            "tag": "kesehatan",
+            "patterns": [
+                "Program kesehatan",
+                "Program dokter",
+                "Apa saja program kesehatan?",
+                "Ada program konsultasi kesehatan di RRI?"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang membahas kesehatan dengan Dokter yakni Dokter Menjawab yang bisa didengarkan di PRO 1"
+            ]
+        },
+        {
+            "tag": "fashion",
+            "patterns": [
+                "Program fashion",
+                "Program beauty atau kecantikan",
+                "Apa saja program gaya dan kecantikan?",
+                "Apakah RRI punya program khusus untuk membahas tentang fashion atau gaya hidup?"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang membahas tentang gaya hidup, fashion, juga kecantikan seperti Informasi Gaya Hidup dan Musik."
+            ]
+        },
+        {
+            "tag": "musik",
+            "patterns": [
+                "Program musik",
+                "Program kesenian musik",
+                "Apa saja program musik dan alat musik di RRI",
+                "Apakah RRI punya program khusus untuk membahas tentang musik dan dunia musik?"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang membahas tentang musik, seperti Suara Budaya Nusantara bahkan ada kanal yang dikhususkan untuk musik yakni RRI Pro 5."
+            ]
+        },
+        {
+            "tag": "lingkungan",
+            "patterns": [
+                "Program lingkungan",
+                "Program lingkungan dan isu keberlanjutan",
+                "Apa saja program environtment?",
+                "Apakah RRI punya program khusus untuk membahas tentang lingkungan atau isu-isu keberlanjutan?"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang membahas tentang isu lingkungan dan juga isu-isu di sekitar seperti Lestari Alamku, Kentongan, Hargai Perbedaan, dan banyak lagi karena kami mencoba untuk meningkatkan awareness di masyarakat!"
+            ]
+        },
+        {
+            "tag": "salam_pagi",
+            "patterns": [
+                "Selamat pagi!",
+                "Pagi!",
+                "Halo, selamat pagi!"
+            ],
+            "responses": [
+                "Selamat pagi! Semoga harimu menyenangkan."
+            ]
+        },
+        {
+            "tag": "salam_siang",
+            "patterns": [
+                "Selamat siang!",
+                "Siang!",
+                "Halo, selamat siang!"
+            ],
+            "responses": [
+                "Selamat siang! Semoga harimu produktif."
+            ]
+        },
+        {
+            "tag": "salam_sore",
+            "patterns": [
+                "Selamat sore!",
+                "Sore!",
+                "Halo, selamat sore!"
+            ],
+            "responses": [
+                "Selamat sore! Semoga harimu menyenangkan."
+            ]
+        },
+        {
+            "tag": "salam_malam",
+            "patterns": [
+                "Selamat malam!",
+                "Malam!",
+                "Halo, selamat malam!"
+            ],
+            "responses": [
+                "Selamat malam! Semoga istirahatmu nyenyak."
+            ]
+        },
+        {
+            "tag": "ucapan_terima_kasih",
+            "patterns": [
+                "Terima kasih!",
+                "Makasih!",
+                "Thanks!"
+            ],
+            "responses": [
+                "Sama-sama! Senang bisa membantu."
+            ]
+        },
+        {
+            "tag": "salam_perkenalan",
+            "patterns": [
+                "Siapa namamu?",
+                "Kamu siapa?",
+                "Kenalan dulu dong!"
+            ],
+            "responses": [
+                "Saya chatbot RRI, siap membantu Anda!"
+            ]
+        },
+        {
+            "tag": "salam_perpisahan",
+            "patterns": [
+                "Sampai jumpa!",
+                "Bye!",
+                "Dadah!",
+                "terimakasih, sampai jumpa!"
+            ],
+            "responses": [
+                "Sampai jumpa lagi! Semoga harimu menyenangkan."
+            ]
+        },
+        {
+            "tag": "salam_umum",
+            "patterns": [
+                "Halo!",
+                "Hai!",
+                "halo",
+                "hai",
+                "hi",
+                "hola",
+                "halo bot!",
+                "Apa kabar?"
+            ],
+            "responses": [
+                "Halo! Apa kabar? Semoga Anda baik-baik saja.",
+                "Halo, Saya chatbot RRI, siap membantu Anda!"
+            ]
+        },
+        {
+            "tag": "sapaan_respon",
+            "patterns": [
+                "Bagaimana kabarmu?",
+                "Apa kabar?",
+                "Gimana hari ini?",
+                "watsup"
+            ],
+            "responses": [
+                "Saya baik-baik saja! Bagaimana dengan Anda?"
+            ]
+        },
+        {
+            "tag": "salam_hari_libur",
+            "patterns": [
+                "Selamat hari libur!",
+                "Liburan!",
+                "Akhir pekan seru!"
+            ],
+            "responses": [
+                "Selamat berlibur! Nikmati waktu istirahat Anda."
+            ]
+        },
+        {
+            "tag": "error_apk",
+            "patterns": [
+                "aplikasi rri digital error",
+                "aplikasi error",
+                "apk error",
+                "tidak bisa login di apk",
+                "error apk tidak bisa login rri digital"
+            ],
+            "responses": [
+                "Jika anda menemukan error atau kesalahan dalam hal login di aplikasi anda bisa mengirimkan detail masalah pada kolom komentar RRI Digital di Playstore"
+            ]
+        },
+        {
+            "tag": "program_tokoh",
+            "patterns": [
+                "program khusus tokoh-tokoh riau",
+                "program tokoh inspiratif",
+                "program orang terkenal"
+            ],
+            "responses": [
+                "RRI Pekanbaru memilliki beberapa program yang mengundang tokoh-tokoh inspiratif dari Pekanbaru dan sekitarnya, salah satunya program obrolan komunitas, dan kelas inspirasi"
+            ]
+        },
+        {
+            "tag": "program_riau",
+            "patterns": [
+                "program khusus potensi daerah riau",
+                "adakah program kearifan lokal riau?",
+                "program potensi riau",
+                "potensi riau"
+            ],
+            "responses": [
+                "RRI Pekanbaru memilliki beberapa program yang membahas tentang potensi daerah riau diantaranya Sinaran Ilmu Wisata Budaya, Sinaran Ilmu Kuliner Melayu, dan Apresiasi Budaya Lokal"
+            ]
+        },
+        {
+            "tag": "kuliner",
+            "patterns": [
+                "program khusus kuliner",
+                "adakah kuliner lokal riau?",
+                "program kuliner",
+                "Apakah RRI punya program khusus untuk membahas tentang kuliner atau makanan khas daerah?"
+            ],
+            "responses": [
+                "RRI Pekanbaru memilliki beberapa program yang membahas tentang kuliner seperti Bincang Kuliner Nusantara"
+            ]
+        },
+        {
+            "tag": "internship_program",
+            "patterns": [
+                "Apakah RRI menyediakan program magang?",
+                "Cara daftar magang di RRI",
+                "Persyaratan magang di RRI",
+                "Program praktek kerja lapangan di RRI",
+                "Internship RRI Pekanbaru"
+            ],
+            "responses": [
+                "RRI Pekanbaru membuka kesempatan magang untuk mahasiswa. Silakan kirim CV dan surat permohonan melalui email resmi RRI atau datang langsung ke kantor RRI Pekanbaru."
+            ]
+        },
+        {
+            "tag": "podcast_program",
+            "patterns": [
+                "Apakah RRI punya podcast?",
+                "Podcast RRI dimana bisa didengar?",
+                "Program podcast RRI",
+                "Cara dengar podcast RRI",
+                "Daftar podcast RRI Pekanbaru"
+            ],
+            "responses": [
+                "RRI memiliki berbagai podcast yang bisa didengarkan melalui aplikasi RRI Digital, Spotify, dan kanal YouTube RRI Pekanbaru. Topik beragam mulai dari budaya, pendidikan, hingga inspirasi."
+            ]
+        },
+        {
+            "tag": "citizen_journalism",
+            "patterns": [
+                "Bagaimana cara jadi kontributor RRI?",
+                "Bisa kirim berita ke RRI?",
+                "Program jurnalistik warga",
+                "Kontributor warga RRI",
+                "Cara berbagi cerita di RRI"
+            ],
+            "responses": [
+                "RRI membuka kesempatan bagi warga untuk menjadi kontributor berita. Anda bisa mengirimkan tulisan, foto, atau rekaman suara melalui sosial media @rri__pekanbaru atau email redaksi."
+            ]
+        },
+        {
+            "tag": "emergency_info",
+            "patterns": [
+                "Informasi darurat di RRI",
+                "Siaran khusus keadaan darurat",
+                "Layanan informasi bencana",
+                "Cara dapat info darurat lewat RRI",
+                "Siaran informasi penting"
+            ],
+            "responses": [
+                "RRI berperan penting dalam menyebarluaskan informasi darurat dan bencana. Kami akan segera menyiarkan informasi penting melalui semua jaringan pro dalam situasi darurat."
+            ]
+        },
+        {
+            "tag": "volunteer_program",
+            "patterns": [
+                "Program relawan RRI",
+                "Cara bergabung jadi relawan RRI",
+                "Volunteer di RRI Pekanbaru",
+                "Syarat jadi relawan RRI",
+                "Kegiatan relawan RRI"
+            ],
+            "responses": [
+                "RRI Pekanbaru membuka kesempatan bagi masyarakat untuk bergabung sebagai relawan dalam berbagai kegiatan sosial dan penyiaran. Hubungi kami via Instagram untuk informasi lebih lanjut."
+            ]
+        },
+        {
+            "tag": "local_content_submission",
+            "patterns": [
+                "Cara kirim konten lokal ke RRI",
+                "Berbagi cerita daerah di RRI",
+                "Konten lokal Riau di RRI",
+                "Submit cerita ke RRI",
+                "Bagaimana RRI merekam cerita lokal"
+            ],
+            "responses": [
+                "RRI sangat terbuka dengan konten lokal! Anda bisa mengirimkan cerita, lagu daerah, atau rekaman budaya lokal Riau melalui sosial media @rri__pekanbaru atau datang langsung ke studio."
+            ]
+        },
+        {
+            "tag": "radio_production_career",
+            "patterns": [
+                "Lowongan kerja di RRI",
+                "Cara jadi penyiar RRI",
+                "Rekrutmen RRI",
+                "Syarat menjadi penyiar radio",
+                "Karir di bidang penyiaran RRI",
+                "Cara masuk kerja di RRI"
+            ],
+            "responses": [
+                "RRI secara berkala membuka lowongan untuk berbagai posisi, termasuk penyiar, produser, dan teknisi. Pantau terus website resmi RRI dan media sosial kami untuk informasi rekrutmen terbaru."
+            ]
+        },
+        {
+            "tag": "local_talent_discovery",
+            "patterns": [
+                "Ajang pencarian bakat di RRI",
+                "Kompetisi bakat RRI",
+                "Audisi di RRI Pekanbaru",
+                "Cara mengikuti lomba di RRI",
+                "Program pengembangan bakat",
+                "Kompetisi musik RRI"
+            ],
+            "responses": [
+                "RRI Pekanbaru sering mengadakan kompetisi dan ajang pencarian bakat, seperti lomba musik, pembacaan puisi, dan talents show. Ikuti sosial media kami untuk informasi terbaru tentang kompetisi yang sedang berlangsung."
+            ]
+        },
+        {
+            "tag": "accessibility_services",
+            "patterns": [
+                "Layanan untuk penyandang disabilitas",
+                "Siaran khusus disabilitas",
+                "Program untuk tuna rungu",
+                "Akses RRI untuk difabel",
+                "Layanan khusus penyandang disabilitas",
+                "Siaran ramah disabilitas"
+            ],
+            "responses": [
+                "RRI berkomitmen untuk memberikan akses informasi bagi seluruh masyarakat. Kami menyediakan program khusus dan upaya untuk membuat konten dapat diakses oleh penyandang disabilitas."
+            ]
+        },
+        {
+            "tag": "community_education",
+            "patterns": [
+                "Program edukasi masyarakat RRI",
+                "Kelas online RRI",
+                "Webinar RRI",
+                "Pelatihan gratis dari RRI",
+                "Program pemberdayaan masyarakat",
+                "Kursus di RRI"
+            ],
+            "responses": [
+                "RRI Pekanbaru secara berkala menyelenggarakan program edukasi masyarakat, termasuk webinar, kelas online, dan pelatihan gratis di berbagai bidang seperti kewirausahaan, literasi, dan keterampilan komunikasi."
+            ]
+        },
+        {
+            "tag": "radio_technology",
+            "patterns": [
+                "Teknologi siaran RRI",
+                "Cara kerja radio digital",
+                "Sistem penyiaran modern",
+                "Teknologi RRI terbaru",
+                "Inovasi penyiaran RRI",
+                "Sistem streaming RRI"
+            ],
+            "responses": [
+                "RRI terus mengembangkan teknologi penyiaran digital, termasuk streaming online, aplikasi mobile, dan sistem penyiaran modern yang memudahkan akses informasi bagi masyarakat."
+            ]
+        },
+        {
+            "tag": "indigenous_language_preservation",
+            "patterns": [
+                "Pelestarian bahasa daerah",
+                "Bahasa ibu di RRI",
+                "Dokumentasi bahasa lokal",
+                "Program bahasa daerah",
+                "Pelindungan bahasa tradisional",
+                "Bahasa asli Riau"
+            ],
+            "responses": [
+                "RRI memiliki program khusus untuk melestarikan dan mendokumentasikan bahasa-bahasa daerah di Riau, termasuk siaran dalam bahasa lokal dan dokumentasi percakapan tradisional."
+            ]
+        },
+        {
+            "tag": "creative_industries",
+            "patterns": [
+                "Industri kreatif Riau",
+                "Pengembangan ekonomi kreatif",
+                "Wadah kreator lokal",
+                "Program ekonomi kreatif",
+                "Dukungan industri kreatif",
+                "Ekonomi berbasis kreativitas"
+            ],
+            "responses": [
+                "RRI mendukung pengembangan ekonomi kreatif di Riau melalui program khusus yang memperkenalkan dan memfasilitasi para kreator lokal dalam berbagai bidang seperti desain, musik, dan seni digital."
+            ]
+        },
+        {
+            "tag": "gender_equality",
+            "patterns": [
+                "Kesetaraan gender",
+                "Program pemberdayaan perempuan",
+                "Diskusi gender di RRI",
+                "Hak-hak perempuan",
+                "Keadilan gender",
+                "Program perempuan inspiratif"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang mendiskusikan isu kesetaraan gender, memberdayakan perempuan, dan mengangkat kisah-kisah inspiratif perempuan di Riau dan Indonesia."
+            ]
+        },
+        {
+            "tag": "future_of_work",
+            "patterns": [
+                "Masa depan kerja",
+                "Transformasi lapangan kerja",
+                "Skill masa depan",
+                "Perubahan dunia kerja",
+                "Karir di era digital",
+                "Pekerjaan di masa depan"
+            ],
+            "responses": [
+                "RRI menghadirkan diskusi mendalam tentang masa depan pekerjaan, keterampilan yang dibutuhkan, dan transformasi pasar tenaga kerja di era digital dan teknologi."
+            ]
+        },
+        {
+            "tag": "urban_agriculture",
+            "patterns": [
+                "Pertanian perkotaan",
+                "Berkebun di kota",
+                "Program pertanian urban",
+                "Kebun di lahan sempit",
+                "Pertanian modern perkotaan",
+                "Solusi pangan kota"
+            ],
+            "responses": [
+                "RRI memiliki program yang mendukung konsep pertanian perkotaan, memberikan tips, diskusi, dan inspirasi tentang berkebun di lahan terbatas di wilayah perkotaan."
+            ]
+        },
+        {
+            "tag": "blockchain_education",
+            "patterns": [
+                "Edukasi blockchain",
+                "Teknologi blockchain",
+                "Cryptocurrency",
+                "Mata uang digital",
+                "Sistem transaksi baru",
+                "Teknologi blockchain di Indonesia"
+            ],
+            "responses": [
+                "RRI menyediakan program edukasi tentang blockchain, cryptocurrency, dan teknologi transaksi digital, membantu masyarakat memahami perkembangan ekonomi digital."
+            ]
+        },
+        {
+            "tag": "local_events",
+            "patterns": [
+                "Acara di Pekanbaru",
+                "Event minggu ini",
+                "Kegiatan kota Pekanbaru",
+                "Jadwal acara kota",
+                "Event budaya",
+                "Pertunjukan di Pekanbaru"
+            ],
+            "responses": [
+                "RRI Pekanbaru selalu up-to-date dengan berbagai events di kota. Untuk informasi lengkap, bisa cek sosial media kami atau dengarkan program harian kami yang membahas event lokal."
+            ]
+        },
+        {
+            "tag": "public_transportation",
+            "patterns": [
+                "Transportasi umum Pekanbaru",
+                "Jadwal bus",
+                "Angkutan kota",
+                "Info transportasi",
+                "Rute angkutan umum",
+                "Transportasi murah di Pekanbaru"
+            ],
+            "responses": [
+                "RRI sering memberikan informasi terkini seputar transportasi umum di Pekanbaru. Untuk update terbaru, bisa dengarkan program lalu lintas harian kami."
+            ]
+        },
+        {
+            "tag": "weather_info",
+            "patterns": [
+                "Prakiraan cuaca Pekanbaru",
+                "Cuaca hari ini",
+                "Info hujan",
+                "Prakiraan cuaca pekan ini",
+                "Kondisi cuaca",
+                "Cuaca Riau"
+            ],
+            "responses": [
+                "RRI menyediakan informasi cuaca terkini setiap hari. Untuk prakiraan cuaca lengkap, bisa dengarkan update cuaca di program berita harian kami."
+            ]
+        },
+        {
+            "tag": "local_market_prices",
+            "patterns": [
+                "Harga bahan pokok",
+                "Harga sayur di Pekanbaru",
+                "Harga beras",
+                "Info harga pasar",
+                "Harga kebutuhan pokok",
+                "Inflasi lokal"
+            ],
+            "responses": [
+                "RRI rutin memberikan informasi harga bahan pokok di pasar-pasar Pekanbaru. Untuk update terbaru, bisa dengarkan program ekonomi kami."
+            ]
+        },
+        {
+            "tag": "local_health_services",
+            "patterns": [
+                "Rumah sakit terdekat",
+                "Jadwal dokter",
+                "Layanan kesehatan",
+                "Faskes di Pekanbaru",
+                "Info rumah sakit",
+                "Pelayanan medis"
+            ],
+            "responses": [
+                "RRI menyediakan informasi layanan kesehatan terkini di Pekanbaru. Untuk informasi lengkap tentang fasilitas kesehatan, bisa dengarkan program kesehatan kami."
+            ]
+        },
+        {
+            "tag": "local_government_services",
+            "patterns": [
+                "Layanan pemerintah",
+                "Jam pelayanan kantor",
+                "Info administrasi",
+                "Pelayanan publik",
+                "Informasi pemerintah",
+                "Jam buka kantor"
+            ],
+            "responses": [
+                "RRI memberikan informasi terkini seputar layanan pemerintah di Pekanbaru. Untuk update terbaru, bisa mengikuti program berita pemerintahan kami."
+            ]
+        },
+        {
+            "tag": "local_education",
+            "patterns": [
+                "Jadwal sekolah",
+                "Info pendidikan",
+                "Penerimaan siswa",
+                "Beasiswa",
+                "Info kuliah",
+                "Pendidikan di Pekanbaru"
+            ],
+            "responses": [
+                "RRI rutin menyiarkan informasi seputar pendidikan di Pekanbaru, termasuk jadwal sekolah, info beasiswa, dan update dunia pendidikan."
+            ]
+        },
+        {
+            "tag": "local_job_market",
+            "patterns": [
+                "Lowongan kerja",
+                "Bursa kerja",
+                "Info lowongan",
+                "Pekerjaan di Pekanbaru",
+                "Karir",
+                "Pencari kerja"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang memberikan informasi lowongan kerja di wilayah Pekanbaru dan sekitarnya. Simak program karir kami untuk informasi terbaru."
+            ]
+        },
+        {
+            "tag": "digital_literacy",
+            "patterns": [
+                "Belajar internet",
+                "Cara pakai smartphone",
+                "Tips digital",
+                "Literasi digital",
+                "Keamanan online",
+                "Belajar teknologi"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang membantu masyarakat meningkatkan literasi digital dan pemahaman teknologi informasi. Mulai dari edukasi bahaya Judol hingga edukasi bersosial media!"
+            ]
+        },
+        {
+            "tag": "home_gardening",
+            "patterns": [
+                "Berkebun di rumah",
+                "Cara tanam sayur",
+                "Pertanian rumahan",
+                "Kebun sederhana",
+                "Tanam di pot",
+                "Berkebun pemula"
+            ],
+            "responses": [
+                "RRI menyediakan tips dan trick berkebun di rumah, cocok untuk pemula maupun yang sudah berpengalaman."
+            ]
+        },
+        {
+            "tag": "parenting_tips",
+            "patterns": [
+                "Tips mendidik anak",
+                "Pola asuh anak",
+                "Parenting modern",
+                "Mendidik generasi digital",
+                "Komunikasi orangtua-anak",
+                "Psikologi anak"
+            ],
+            "responses": [
+                "RRI menghadirkan program khusus seputar parenting dengan narasumber ahli psikologi anak dan orangtua berpengalaman. Cek di aplikasi RRI DIgital untuk lengkapnya!"
+            ]
+        },
+        {
+            "tag": "financial_literacy",
+            "patterns": [
+                "Cara menabung",
+                "Investasi pemula",
+                "Keuangan keluarga",
+                "Tips hemat",
+                "Manajemen uang",
+                "Keuangan cerdas"
+            ],
+            "responses": [
+                "RRI memiliki program edukasi keuangan yang membantu masyarakat mengelola keuangan dengan lebih bijak."
+            ]
+        },
+        {
+            "tag": "mental_wellness",
+            "patterns": [
+                "Kesehatan mental",
+                "Atasi stres",
+                "Meditasi",
+                "Ketenangan pikiran",
+                "Hidup seimbang",
+                "Kesejahteraan psikologis"
+            ],
+            "responses": [
+                "RRI menyajikan program khusus tentang kesehatan mental dan tips menjaga keseimbangan psikologis."
+            ]
+        },
+        {
+            "tag": "sustainable_living",
+            "patterns": [
+                "Hidup ramah lingkungan",
+                "Gaya hidup hijau",
+                "Kurangi sampah",
+                "Daur ulang",
+                "Konsumsi rendah karbon",
+                "Lingkungan berkelanjutan"
+            ],
+            "responses": [
+                "RRI menghadirkan program edukasi tentang gaya hidup berkelanjutan dan ramah lingkungan. Seperti edukasi untuk mengurangi penggunaan sampah plastik."
+            ]
+        },
+        {
+            "tag": "culinary_exploration",
+            "patterns": [
+                "Resep masakan",
+                "Kuliner nusantara",
+                "Tips memasak",
+                "Makanan sehat",
+                "Kreasi masakan",
+                "Variasi menu"
+            ],
+            "responses": [
+                "RRI punya program kuliner yang menghadirkan berbagai resep, tips memasak, dan eksplorasi kuliner nusantara."
+            ]
+        },
+        {
+            "tag": "personal_development",
+            "patterns": [
+                "Pengembangan diri",
+                "Motivasi hidup",
+                "Pertumbuhan pribadi",
+                "Cara sukses",
+                "Mindset positif",
+                "Pencapaian goals"
+            ],
+            "responses": [
+                "RRI menyediakan program motivasi dan pengembangan diri dengan narasumber inspiratif hingga komunitas pengembaangan diri."
+            ]
+        },
+        {
+            "tag": "community_engagement",
+            "patterns": [
+                "Kegiatan sosial",
+                "Aksi komunitas",
+                "Gotong royong",
+                "Bakti sosial",
+                "Volunteer",
+                "Gerakan masyarakat"
+            ],
+            "responses": [
+                "RRI aktif mengangkat cerita-cerita aksi sosial dan kegiatan positif masyarakat Pekanbaru."
+            ]
+        },
+        {
+            "tag": "digital_entrepreneurship",
+            "patterns": [
+                "Bisnis online",
+                "Wirausaha digital",
+                "Jualan di internet",
+                "Startup lokal",
+                "Entrepreneur muda",
+                "Bisnis digital"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang mendukung para pengusaha muda dan wirausaha digital."
+            ]
+        },
+        {
+            "tag": "sports_broadcast",
+            "patterns": [
+                "Siaran olahraga hari ini",
+                "Jadwal siaran bola",
+                "Kapan siaran pertandingan?",
+                "Ada siaran olahraga tidak?",
+                "Streaming pertandingan di RRI"
+            ],
+            "responses": [
+                "RRI menyiarkan berbagai event olahraga penting. Cek jadwal lengkap di aplikasi RRI Digital atau website kami."
+            ]
+        },
+        {
+            "tag": "music_request_policy",
+            "patterns": [
+                "Aturan request lagu",
+                "Syarat request musik",
+                "Berapa lagu yang boleh direquest?",
+                "Kapan bisa request lagu?",
+                "Prosedur request musik"
+            ],
+            "responses": [
+                "Request lagu dapat dilakukan melalui Instagram @rri__pekanbaru. Mohon cantumkan nama, alamat, dan lagu yang diinginkan."
+            ]
+        },
+        {
+            "tag": "radio_theater",
+            "patterns": [
+                "Program drama radio",
+                "Jadwal sandiwara radio",
+                "Kapan ada drama?",
+                "Siaran drama radio",
+                "Theater radio RRI"
+            ],
+            "responses": [
+                "RRI memiliki program drama radio yang disiarkan secara berkala. Cek jadwal lengkapnya di aplikasi RRI Digital."
+            ]
+        },
+        {
+            "tag": "student_programs",
+            "patterns": [
+                "Program untuk pelajar",
+                "Siaran edukasi sekolah",
+                "RRI untuk siswa",
+                "Program pendidikan sekolah",
+                "Acara untuk mahasiswa"
+            ],
+            "responses": [
+                "RRI memiliki berbagai program khusus untuk pelajar dan mahasiswa, termasuk program edukasi dan pengembangan diri."
+            ]
+        },
+        {
+            "tag": "signal_problems",
+            "patterns": [
+                "Sinyal radio lemah",
+                "Tidak bisa menangkap siaran",
+                "Gangguan sinyal",
+                "Suara radio tidak jelas",
+                "Masalah penerimaan siaran"
+            ],
+            "responses": [
+                "Jika mengalami masalah sinyal, coba dengarkan melalui aplikasi RRI Digital atau website kami di digital.rri.co.id"
+            ]
+        },
+        {
+            "tag": "advertising",
+            "patterns": [
+                "Cara pasang iklan",
+                "Biaya iklan di RRI",
+                "Prosedur pemasangan iklan",
+                "Tarif iklan radio",
+                "Kontak bagian iklan"
+            ],
+            "responses": [
+                "Untuk informasi pemasangan iklan, silakan hubungi tim marketing kami melalui Instagram @rri__pekanbaru"
+            ]
+        },
+        {
+            "tag": "technical_support",
+            "patterns": [
+                "Bantuan teknis streaming",
+                "Masalah aplikasi RRI",
+                "Cara perbaiki masalah teknis",
+                "Support teknikal",
+                "Bantuan masalah aplikasi"
+            ],
+            "responses": [
+                "Untuk bantuan teknis, silakan laporkan masalah melalui kolom komentar di Playstore atau hubungi kami via Instagram @rri__pekanbaru"
+            ]
+        },
+        {
+            "tag": "coverage_area",
+            "patterns": [
+                "Jangkauan siaran RRI",
+                "Area siaran radio",
+                "Daerah yang terjangkau RRI",
+                "Coverage area RRI Pekanbaru",
+                "Wilayah siaran"
+            ],
+            "responses": [
+                "RRI Pekanbaru menjangkau seluruh wilayah Pekanbaru dan sekitarnya. Untuk area di luar jangkauan, bisa menggunakan aplikasi RRI Digital."
+            ]
+        },
+        {
+            "tag": "studio_visit",
+            "patterns": [
+                "Kunjungan ke studio",
+                "Cara berkunjung ke RRI",
+                "Jadwal kunjungan studio",
+                "Tour studio RRI",
+                "Prosedur kunjungan",
+                "bagaimana prosedur kunjungan ke rri pekanbaru"
+            ],
+            "responses": [
+                "Untuk mengatur kunjungan ke studio RRI Pekanbaru, silakan hubungi kami melalui Instagram @rri__pekanbaru"
+            ]
+        },
+        {
+            "tag": "frequency_info",
+            "patterns": [
+                "Frekuensi RRI",
+                "Gelombang radio RRI",
+                "Channel RRI",
+                "Saluran frekuensi",
+                "Frequency radio RRI"
+            ],
+            "responses": [
+                "Frekuensi RRI berbeda di setiap daerah. Silakan cek frekuensi di daerah Anda melalui website kami"
+            ]
+        },
+        {
+            "tag": "digital_streaming",
+            "patterns": [
+                "Cara streaming RRI",
+                "Link streaming radio",
+                "Aplikasi RRI digital",
+                "Streaming online RRI",
+                "Cara dengar RRI online"
+            ],
+            "responses": [
+                "Anda dapat mengakses siaran RRI melalui aplikasi RRI Digital yang tersedia di Playstore atau melalui website digital.rri.co.id"
+            ]
+        },
+        {
+            "tag": "listener_interaction",
+            "patterns": [
+                "Cara request lagu",
+                "Kirim salam di radio",
+                "Interaksi pendengar",
+                "Cara ikut program interaktif",
+                "Telepon ke studio"
+            ],
+            "responses": [
+                "Untuk berinteraksi dengan program siaran, silakan hubungi studio melalui nomor telepon yang diumumkan saat program berlangsung"
+            ]
+        },
+        {
+            "tag": "special_events",
+            "patterns": [
+                "Event khusus RRI",
+                "Acara spesial radio",
+                "Program hari besar",
+                "Event mendatang",
+                "Jadwal acara spesial"
+            ],
+            "responses": [
+                "Informasi tentang event khusus RRI dapat diikuti melalui siaran radio atau media sosial kami di Instagram @rri__pekanbaru"
+            ]
+        },
+        {
+            "tag": "app_support",
+            "patterns": [
+                "Masalah aplikasi RRI",
+                "Bantuan teknis aplikasi",
+                "Error aplikasi digital",
+                "Cara pakai aplikasi RRI",
+                "Panduan aplikasi"
+            ],
+            "responses": [
+                "Untuk bantuan teknis aplikasi RRI Digital, silakan hubungi kami melalui email support@rri.co.id atau media sosial @rri__pekanbaru"
+            ]
+        },
+        {
+            "tag": "lost_found",
+            "patterns": [
+                "Layanan kehilangan barang",
+                "Pengumuman kehilangan",
+                "Cara mengumumkan barang hilang",
+                "Info barang temuan",
+                "Pengumuman barang hilang"
+            ],
+            "responses": [
+                "RRI membantu menyiarkan informasi kehilangan dan penemuan barang. Hubungi kami melalui Instagram @rri__pekanbaru untuk detailnya."
+            ]
+        },
+        {
+            "tag": "local_traffic",
+            "patterns": [
+                "Kondisi lalu lintas",
+                "Macet di mana?",
+                "Info jalan",
+                "Situasi lalin",
+                "Kemacetan Pekanbaru",
+                "Alternatif jalan"
+            ],
+            "responses": [
+                "RRI menyediakan update lalu lintas terkini di Pekanbaru. Untuk informasi terakhir tentang kondisi jalan, bisa dengarkan update lalu lintas kami."
+            ]
+        },
+        {
+            "tag": "local_tourism",
+            "patterns": [
+                "Tempat wisata",
+                "Rekomendasi liburan",
+                "Objek wisata Pekanbaru",
+                "Tempat menarik di Riau",
+                "Wisata murah",
+                "Destinasi liburan"
+            ],
+            "responses": [
+                "RRI memiliki program khusus yang membahas destinasi wisata menarik di Pekanbaru dan sekitarnya. Simak program wisata kami untuk inspirasi liburan."
+            ]
+        },
+        {
+            "tag": "international_program",
+            "patterns": [
+                "Program internasional RRI",
+                "Siaran berbahasa asing",
+                "Berita internasional di RRI",
+                "Program pertukaran budaya",
+                "Siaran luar negeri RRI",
+                "Konten internasional RRI"
+            ],
+            "responses": [
+                "RRI memiliki program internasional yang mencakup berita global, pertukaran budaya, dan siaran dalam berbagai bahasa untuk memperluas wawasan pendengar."
+            ]
+        },
+        {
+            "tag": "rri_sumatra",
+            "patterns": [
+                "Program RRI Medan",
+                "Siaran RRI Palembang",
+                "RRI Padang frequency",
+                "Acara RRI Jambi",
+                "RRI Banda Aceh streaming",
+                "Program daerah Riau",
+                "Siaran Bengkulu",
+                "RRI Lampung online"
+            ],
+            "responses": [
+                "Untuk siaran RRI di wilayah Sumatra, silakan akses melalui frekuensi lokal atau streaming di aplikasi RRI Digital. Setiap daerah memiliki program khusus yang mencerminkan budaya setempat"
+            ]
+        },
+        {
+            "tag": "rri_jawa",
+            "patterns": [
+                "Frekuensi RRI Jakarta",
+                "Program RRI Bandung",
+                "RRI Semarang streaming",
+                "Siaran RRI Surabaya",
+                "RRI Yogyakarta online",
+                "Program budaya Jawa Timur",
+                "Siaran bahasa Sunda",
+                "RRI Banten live"
+            ],
+            "responses": [
+                "RRI di wilayah Jawa menyiarkan program dalam bahasa daerah dan nasional. Akses siaran melalui frekuensi lokal atau streaming di aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "rri_kalimantan",
+            "patterns": [
+                "RRI Pontianak program",
+                "Siaran RRI Banjarmasin",
+                "Frekuensi RRI Samarinda",
+                "RRI Palangkaraya streaming",
+                "Program budaya Dayak",
+                "Siaran bahasa Banjar",
+                "RRI Kalimantan update"
+            ],
+            "responses": [
+                "RRI di Kalimantan menyajikan program khusus budaya dan bahasa setempat. Dengarkan melalui frekuensi lokal atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "rri_sulawesi",
+            "patterns": [
+                "Program RRI Makassar",
+                "Siaran RRI Manado",
+                "RRI Palu frequency",
+                "Program RRI Gorontalo",
+                "Siaran bahasa Bugis",
+                "RRI Kendari streaming",
+                "Budaya Sulawesi program"
+            ],
+            "responses": [
+                "RRI di Sulawesi menyiarkan program dalam bahasa daerah dan konten budaya lokal. Akses melalui frekuensi setempat atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "rri_bali_ntt_ntb",
+            "patterns": [
+                "Program RRI Denpasar",
+                "Siaran RRI Kupang",
+                "RRI Mataram streaming",
+                "Program budaya Bali",
+                "Siaran bahasa Sasak",
+                "RRI NTT program",
+                "Acara adat Bali"
+            ],
+            "responses": [
+                "RRI di wilayah Bali, NTT, dan NTB menyiarkan program khusus budaya dan bahasa daerah. Dengarkan melalui frekuensi lokal atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "rri_maluku_papua",
+            "patterns": [
+                "RRI Ambon program",
+                "Siaran RRI Jayapura",
+                "RRI Maluku streaming",
+                "Program Papua Barat",
+                "Siaran bahasa Maluku",
+                "RRI Ternate frequency",
+                "Budaya Papua program"
+            ],
+            "responses": [
+                "RRI di Maluku dan Papua menyajikan program dalam bahasa daerah dan konten budaya setempat. Akses melalui frekuensi lokal atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "regional_news",
+            "patterns": [
+                "Berita daerah terkini",
+                "Update berita lokal",
+                "Kabar dari daerah",
+                "Berita provinsi",
+                "Info kabupaten kota",
+                "Liputan daerah RRI"
+            ],
+            "responses": [
+                "Berita daerah disiarkan secara rutin oleh RRI di setiap provinsi. Pantau update terbaru melalui siaran lokal atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "regional_culture",
+            "patterns": [
+                "Program budaya daerah",
+                "Siaran kesenian tradisional",
+                "Acara adat setempat",
+                "Program bahasa daerah",
+                "Siaran lagu daerah",
+                "Pertunjukan seni lokal"
+            ],
+            "responses": [
+                "RRI secara rutin menyiarkan program budaya dan kesenian daerah. Cek jadwal siaran budaya di stasiun RRI terdekat atau melalui aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "regional_frequency",
+            "patterns": [
+                "Frekuensi RRI daerah",
+                "Gelombang radio lokal",
+                "Channel RRI provinsi",
+                "Frekuensi Pro 1 daerah",
+                "Saluran RRI kabupaten"
+            ],
+            "responses": [
+                "Setiap daerah memiliki frekuensi RRI yang berbeda. Silakan cek frekuensi RRI di wilayah Anda melalui website kami atau aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "regional_events",
+            "patterns": [
+                "Event RRI daerah",
+                "Acara khusus provinsi",
+                "Kegiatan RRI lokal",
+                "Program spesial daerah",
+                "Festival RRI regional",
+                "Perayaan daerah RRI"
+            ],
+            "responses": [
+                "RRI di setiap daerah rutin mengadakan event khusus. Informasi lengkap dapat diakses melalui siaran lokal atau media sosial RRI di daerah Anda"
+            ]
+        },
+        {
+            "tag": "radio_museum_history",
+            "patterns": [
+                "Sejarah lengkap RRI",
+                "Museum RRI",
+                "Arsip sejarah RRI",
+                "Koleksi sejarah radio",
+                "Dokumentasi RRI",
+                "Sejarah penyiaran di Indonesia"
+            ],
+            "responses": [
+                "RRI memiliki arsip dan dokumentasi penting tentang sejarah penyiaran di Indonesia. Untuk informasi mendalam, Anda bisa mengakses arsip digital di website resmi kami."
+            ]
+        },
+        {
+            "tag": "environmental_awareness",
+            "patterns": [
+                "Program lingkungan RRI",
+                "Kampanye lingkungan",
+                "Edukasi lingkungan di RRI",
+                "Isu perubahan iklim di RRI",
+                "Diskusi lingkungan",
+                "Program ramah lingkungan"
+            ],
+            "responses": [
+                "RRI aktif dalam kampanye dan edukasi lingkungan, menghadirkan program-program yang meningkatkan kesadaran masyarakat tentang isu-isu lingkungan dan keberlanjutan."
+            ]
+        },
+        {
+            "tag": "digital_innovation",
+            "patterns": [
+                "Inovasi digital RRI",
+                "Teknologi baru RRI",
+                "Pengembangan digital RRI",
+                "Transformasi digital radio",
+                "Aplikasi inovatif RRI",
+                "Teknologi penyiaran terbaru"
+            ],
+            "responses": [
+                "RRI terus berinovasi dengan teknologi digital, termasuk pengembangan AI untuk personalisasi konten, analisis pendengar, dan pengalaman penyiaran interaktif yang lebih maju."
+            ]
+        },
+        {
+            "tag": "youth_empowerment",
+            "patterns": [
+                "Program pemberdayaan pemuda",
+                "Wadah kreativitas anak muda",
+                "Inspirasi pemuda di RRI",
+                "Ruang ekspresi generasi muda",
+                "Program khusus pemuda",
+                "Pengembangan bakat anak muda"
+            ],
+            "responses": [
+                "RRI memiliki berbagai program khusus untuk memberdayakan generasi muda, termasuk ruang diskusi, platform berbagi karya, dan program mentoring untuk pengembangan potensi pemuda Riau."
+            ]
+        },
+        {
+            "tag": "salam",
+            "patterns": [
+                "Halo min",
+                "Hai admin",
+                "Selamat pagi",
+                "P",
+                "Pagi min",
+                "Siang min",
+                "Malam min",
+                "Assalamualaikum",
+                "Hai RRI",
+                "Halo RRI"
+            ],
+            "responses": [
+                "Hai! Ada yang bisa kami bantu? Silakan tanyakan informasi seputar program RRI yang Anda butuhkan"
+            ]
+        },
+        {
+            "tag": "program_sekarang",
+            "patterns": [
+                "Lagi nyiarin apa nih?",
+                "On air apa sekarang?",
+                "Ini program apa ya?",
+                "Siapa yang lagi siaran?",
+                "Yang lagi siaran siapa?",
+                "Lagi dengerin apa ya ini?",
+                "Ini acara apa sih?",
+                "Sekarang program apa?"
+            ],
+            "responses": [
+                "Program yang sedang berlangsung bisa dicek di aplikasi RRI Digital atau website kami di digital.rri.co.id"
+            ]
+        },
+        {
+            "tag": "request_casual",
+            "patterns": [
+                "Mau request dong min",
+                "Bisa minta lagunya ga?",
+                "Pengen request nih",
+                "Min request dong",
+                "Putar lagu dong min",
+                "Mau titip salam boleh?",
+                "Kirim-kirim salam dong",
+                "Sekalian request ya min"
+            ],
+            "responses": [
+                "Boleh banget! Silakan request lagu saat program request berlangsung ya. Bisa juga pakai fitur request di aplikasi RRI Digital"
+            ]
+        },
+        {
+            "tag": "obrolan_santai",
+            "patterns": [
+                "Lagi apa min?",
+                "Min udah makan?",
+                "Sepi nih min",
+                "Bosen nih min",
+                "Cuaca hari ini gimana?",
+                "Lagi sibuk ga min?",
+                "Admin nya ramah ya",
+                "Asik nih adminnya"
+            ],
+            "responses": [
+                "Terimakasih sudah menyapa! Sambil ngobrol, yuk dengerin program-program seru RRI. Ada yang ingin ditanyakan tentang siaran kami?"
+            ]
+        },
+        {
+            "tag": "keluhan_santai",
+            "patterns": [
+                "Kok ga kedengeran sih?",
+                "Min audionya putus-putus",
+                "Ini kenapa ya suaranya?",
+                "Ga jelas nih min",
+                "Streamingnya lemot",
+                "Kok buffering terus?",
+                "Susah connect nih",
+                "Loading mulu min"
+            ],
+            "responses": [
+                "Maaf atas kendala teknisnya. Coba akses melalui aplikasi RRI Digital ya, atau bisa cek koneksi internet kamu dulu"
+            ]
+        },
+        {
+            "tag": "tanya_info_santai",
+            "patterns": [
+                "Info dong min",
+                "Eh btw min",
+                "Mau nanya dong",
+                "Min mau tanya nih",
+                "Penasaran nih min",
+                "Kepo dong min",
+                "Sharing info dong",
+                "Kasih tau dong min"
+            ],
+            "responses": [
+                "Silakan, mau tanya tentang apa nih? Akan kami bantu informasikan seputar program dan layanan RRI"
+            ]
+        },
+        {
+            "tag": "pujian",
+            "patterns": [
+                "Keren banget sih",
+                "Mantap programnya",
+                "Suka banget nih",
+                "Asik banget ya",
+                "The best deh",
+                "Bagus acaranya",
+                "Keren min",
+                "Mantul min"
+            ],
+            "responses": [
+                "Makasih banyak atas apresiasinya! Tetap ikuti program-program RRI ya. Kritik dan saran juga boleh lho 😊"
+            ]
+        },
+        {
+            "tag": "terima_kasih",
+            "patterns": [
+                "Makasih min",
+                "Thanks ya",
+                "Thx min",
+                "Makasi infonya",
+                "Ok min thanks",
+                "Sip makasih",
+                "Thank you min",
+                "Tengkyuu"
+            ],
+            "responses": [
+                "Sama-sama! Senang bisa membantu. Jangan lupa ikuti terus program-program RRI ya 😊"
+            ]
+        },
+        {
+            "tag": "pamit",
+            "patterns": [
+                "Udahan dulu ya min",
+                "Dadah min",
+                "Cabut dulu min",
+                "Bye min",
+                "Sampai jumpa",
+                "Mau off dulu",
+                "Udah dulu ya",
+                "Pamit min"
+            ],
+            "responses": [
+                "Okay, terima kasih sudah mampir! Ditunggu kehadirannya lagi di program-program RRI ya 👋"
+            ]
+        },
+        {
+            "tag": "guyonan",
+            "patterns": [
+                "Min lucu deh",
+                "Adminnya asik",
+                "Bisa aja min",
+                "Haha min bisa aja",
+                "Kocak min",
+                "Admin receh",
+                "Ngakak min",
+                "Lucuan admin"
+            ],
+            "responses": [
+                "Hehe... Asik kan ngobrolnya? Sambil dengerin program RRI yang seru-seru juga yuk! 😄"
+            ]
+        },
+        {
+            "tag": "bantuan_akun",
+            "patterns": [
+                "Gimana cara daftar di RRI Digital?",
+                "Akun saya bermasalah",
+                "Lupa password RRI Digital",
+                "Gagal login ke aplikasi RRI"
+            ],
+            "responses": [
+                "Untuk bantuan akun, kamu bisa hubungi tim support RRI melalui aplikasi atau website resmi kami."
+            ]
+        },
+        {
+            "tag": "donasi",
+            "patterns": [
+                "Mau donasi ke RRI bisa?",
+                "Gimana cara berdonasi?",
+                "Ada program donasi di RRI?",
+                "Mau bantu donasi dong"
+            ],
+            "responses": [
+                "Terima kasih atas niat baiknya! Informasi mengenai program donasi bisa kamu cek di website resmi RRI."
+            ]
+        },
+        {
+            "tag": "cuaca",
+            "patterns": [
+                "Cuaca hari ini gimana?",
+                "Lagi hujan ga ya?",
+                "Panas banget hari ini",
+                "Hari ini dingin ya"
+            ],
+            "responses": [
+                "Untuk info cuaca terkini, kamu bisa cek di BMKG atau aplikasi cuaca favoritmu!"
+            ]
+        },
+        {
+            "tag": "motivasi",
+            "patterns": [
+                "Kasih motivasi dong min",
+                "Lagi down nih",
+                "Butuh semangat",
+                "Min, kata-kata penyemangat dong"
+            ],
+            "responses": [
+                "Tetap semangat! Setiap hari adalah kesempatan baru untuk menjadi lebih baik 💪"
+            ]
+        },
+        {
+            "tag": "rekomendasi_program",
+            "patterns": [
+                "Rekomendasi program seru dong",
+                "Program yang wajib didengerin apa?",
+                "Ada acara menarik ga?",
+                "Min, kasih rekomendasi acara"
+            ],
+            "responses": [
+                "Banyak program seru di RRI! Coba cek di aplikasi RRI Digital untuk rekomendasi program favoritmu."
+            ]
+        },
+        {
+            "tag": "tanya_podcast",
+            "patterns": [
+                "Ada podcast di RRI?",
+                "Bisa dengerin podcast di mana?",
+                "Podcast terbaru apa?",
+                "Min, kasih link podcast dong"
+            ],
+            "responses": [
+                "RRI punya banyak podcast menarik! Kamu bisa dengarkan di aplikasi RRI Digital atau platform podcast favoritmu."
+            ]
+        },
+        {
+            "tag": "tanya_host",
+            "patterns": [
+                "Siapa host program ini?",
+                "Penyiar favoritku siapa ya?",
+                "Host acara pagi siapa?",
+                "Siapa yang jadi MC di RRI?"
+            ],
+            "responses": [
+                "RRI punya banyak penyiar keren! Kamu bisa cek daftar host di website RRI atau media sosial resmi kami."
+            ]
+        },
+        {
+            "tag": "tanya_kontak",
+            "patterns": [
+                "Cara hubungi RRI gimana?",
+                "Ada nomor kontak RRI?",
+                "Bisa hubungi RRI lewat mana?",
+                "Gimana cara kasih feedback ke RRI?"
+            ],
+            "responses": [
+                "Kamu bisa hubungi RRI melalui media sosial, website, atau aplikasi RRI Digital untuk info lebih lanjut!"
+            ]
+        },
+        {
+            "tag": "lomba_rri",
+            "patterns": [
+                "Ada lomba di RRI?",
+                "Lomba terbaru di RRI apa?",
+                "Min, ada kompetisi apa aja?",
+                "Bisa ikut event RRI ga?"
+            ],
+            "responses": [
+                "RRI sering mengadakan lomba dan event menarik! Cek info terbaru di website atau media sosial kami."
+            ]
+        },
+        {
+            "tag": "tanya_replay",
+            "patterns": [
+                "Bisa dengerin ulang siaran?",
+                "Ada rekaman program ini?",
+                "Gimana cara replay acara tadi?",
+                "Kalo ketinggalan acara gimana?"
+            ],
+            "responses": [
+                "Beberapa program RRI bisa didengarkan ulang di aplikasi RRI Digital atau platform streaming kami."
+            ]
+        },
+        {
+            "tag": "tanya_iklan",
+            "patterns": [
+                "Bisa pasang iklan di RRI?",
+                "Mau promosi di RRI bisa?",
+                "Gimana cara pasang iklan?",
+                "Ada paket promosi di RRI?"
+            ],
+            "responses": [
+                "Untuk informasi iklan dan promosi, silakan hubungi tim marketing RRI melalui website resmi kami."
+            ]
+        },
+        {
+            "tag": "tanya_karir",
+            "patterns": [
+                "Ada lowongan di RRI?",
+                "Bisa kerja di RRI ga?",
+                "Gimana cara daftar kerja di RRI?",
+                "RRI buka recruitment?"
+            ],
+            "responses": [
+                "Informasi lowongan kerja di RRI bisa kamu cek di website resmi RRI atau akun LinkedIn kami."
+            ]
+        },
+        {
+            "tag": "event_musik",
+            "patterns": [
+                "Ada konser dari RRI?",
+                "RRI bikin event musik?",
+                "Acara musik terbaru di RRI apa?",
+                "Min, kapan ada live music?"
+            ],
+            "responses": [
+                "RRI sering mengadakan event musik seru! Pantau terus informasi di website dan media sosial kami ya!"
+            ]
+        },
+        {
+            "tag": "startup_ecosystem",
+            "patterns": [
+                "Program startup RRI",
+                "Dukungan wirausaha muda",
+                "Inkubator bisnis RRI",
+                "Wadah pengusaha pemula",
+                "Konsultasi bisnis di RRI",
+                "Pengembangan usaha startup"
+            ],
+            "responses": [
+                "RRI berperan aktif dalam ekosistem startup dengan program khusus yang mendukung wirausaha muda, termasuk talk show, konsultasi, dan ruang sharing pengalaman para pelaku usaha."
+            ]
+        },
+        {
+            "tag": "mental_health_support",
+            "patterns": [
+                "Konseling mental di RRI",
+                "Program kesehatan mental",
+                "Dukungan psikologis",
+                "Berbicara dengan psikolog",
+                "Program peduli mental",
+                "Konsultasi kesehatan jiwa"
+            ],
+            "responses": [
+                "RRI memiliki program khusus seputar kesehatan mental dengan menghadirkan ahli psikologi dan konselor yang memberikan ruang diskusi, konsultasi, dan edukasi tentang kesehatan jiwa salah satunya program Jangan Takut Ke Psikolog."
+            ]
+        },
+        {
+            "tag": "citizen_science",
+            "patterns": [
+                "Partisipasi warga dalam sains",
+                "Program sains masyarakat",
+                "Penelitian berbasis warga",
+                "Kontribusi ilmiah masyarakat",
+                "Sains partisipatif RRI",
+                "Program riset bersama"
+            ],
+            "responses": [
+                "RRI mendukung program sains partisipatif yang melibatkan masyarakat dalam penelitian dan pengembangan pengetahuan, memberikan ruang bagi warga untuk berbagi temuan dan pengalaman ilmiah."
+            ]
+        },
+        {
+            "tag": "cultural_preservation",
+            "patterns": [
+                "Pelestarian budaya di RRI",
+                "Dokumentasi warisan budaya",
+                "Program pelestarian tradisi",
+                "Rekam jejak budaya lokal",
+                "Preservasi kebudayaan",
+                "Dokumentasi adat istiadat"
+            ],
+            "responses": [
+                "RRI memiliki misi khusus untuk melestarikan dan mendokumentasikan kekayaan budaya Riau, melalui program rekaman, wawancara dengan tokoh adat, dan penyiaran cerita-cerita tradisional."
+            ]
+        },
+        {
+            "tag": "disaster_preparedness",
+            "patterns": [
+                "Siaran penanganan bencana",
+                "Informasi kebencanaan",
+                "Mitigasi risiko bencana",
+                "Protokol darurat RRI",
+                "Sistem peringatan dini",
+                "Edukasi keselamatan"
+            ],
+            "responses": [
+                "RRI berperan penting dalam sistem peringatan dini dan edukasi kebencanaan, menyediakan informasi kritis, prosedur evakuasi, dan panduan keselamatan selama situasi darurat."
+            ]
+        },
+        {
+            "tag": "ai_content_creation",
+            "patterns": [
+                "Penggunaan AI di RRI",
+                "Konten AI di radio",
+                "Teknologi AI penyiaran",
+                "Pembuatan konten AI",
+                "Inovasi AI di radio",
+                "Algoritma pembuatan konten"
+            ],
+            "responses": [
+                "RRI mulai mengeksplorasi penggunaan AI dalam produksi konten, termasuk bantuan penulisan naskah, analisis topik trending, dan personalisasi pengalaman pendengar."
+            ]
+        },
+        {
+            "tag": "rural_development",
+            "patterns": [
+                "Program pembangunan desa",
+                "Fokus pemberdayaan daerah",
+                "Informasi pembangunan pedesaan",
+                "Potensi desa di Riau",
+                "Pengembangan wilayah pedesaan",
+                "Strategi memajukan desa"
+            ],
+            "responses": [
+                "RRI memiliki program khusus untuk mengangkat potensi dan mendokumentasikan perkembangan daerah-daerah di Riau, memberi ruang bagi suara masyarakat pedesaan."
+            ]
+        },
+        {
+            "tag": "indigenous_knowledge",
+            "patterns": [
+                "Pengetahuan tradisional",
+                "Kearifan lokal Riau",
+                "Warisan pengetahuan adat",
+                "Dokumentasi pengetahuan tradisional",
+                "Cerita rakyat Riau",
+                "Sistem pengetahuan asli"
+            ],
+            "responses": [
+                "RRI berkomitmen untuk melestarikan dan menyebarluaskan pengetahuan tradisional masyarakat Riau, melalui program khusus yang mendokumentasikan kearifan lokal dan cerita rakyat."
+            ]
+        },
+        {
+            "tag": "saran",
+            "patterns": [
+                "adakah kotak saran?",
+                "bagaimana cara memberikan saran atau masukan?",
+                "kotak saran",
+                "masukan",
+                "saran"
+            ],
+            "responses": [
+                "Anda bisa memberikan saran atau masukan RRI lewat komen di aplikasi RRI Digital, website RRI, hingga sosial media RRI Pekanbaru"
+            ]
+        }
+    ]
+}
